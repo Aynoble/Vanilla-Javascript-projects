@@ -1,0 +1,70 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(9, 153, 153);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.container {
+  height: 60vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.arrowRight {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.arrowLeft {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+.imageContainer {
+  width: 800px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slider {
+  display: flex;
+  transition: all 1s ease;
+}
+
+.image {
+  min-width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.bottom {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+}
